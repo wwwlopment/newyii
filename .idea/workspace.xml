@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab5f98fe-4bbd-45ae-849a-d78a2c0b40eb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/basic/.bowerrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/Vagrantfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/assets/AppAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/codeception.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/commands/HelloController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/config/console.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/config/db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/config/params.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/config/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/config/test_db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/config/web.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/mail/layouts/html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/models/ContactForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/models/LoginForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/models/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/requirements.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/runtime/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_data/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_output/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_support/AcceptanceTester.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_support/FunctionalTester.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_support/UnitTester.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance.suite.yml.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/AboutCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/ContactCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/HomeCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/LoginCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/bin/yii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/bin/yii.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional.suite.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional/ContactFormCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional/LoginFormCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit.suite.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/models/ContactFormTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/models/LoginFormTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/models/UserTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/config/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/config/vagrant-local.example.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/nginx/app.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/nginx/log/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/provision/always-as-root.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/provision/once-as-root.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/provision/once-as-vagrant.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/about.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/contact.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/error.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/web/assets/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/web/css/site.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/web/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/web/index-test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/web/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/web/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/widgets/Alert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/yii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/yii.bat" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="1047" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="newyii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyii" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab5f98fe-4bbd-45ae-849a-d78a2c0b40eb" name="Default" comment="" />
+      <created>1523995191009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523995191009</updated>
+      <workItem from="1523995194456" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="1020" width="1301" height="772" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18326694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
