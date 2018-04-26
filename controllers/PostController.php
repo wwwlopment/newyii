@@ -35,15 +35,22 @@ class PostController extends AppController
     }
 
     $model = new TestForm();
+/*    $model->name = 'Автор';
+   // $model->email = 'mail@mail.com';
+    $model->text = 'Текст повідомлення';
+    $model->save();*/
+
+
     if ( $model->load(Yii::$app->request->post()) ) {
-      if ( $model->validate() ){
+      //if ( $model->validate() ){
+      if ( $model->save() ){
         Yii::$app->session->setFlash('success', 'Дані прийняті');
-        $this->refresh();
+       return  $this->refresh();
       } else {
         Yii::$app->session->setFlash('error', 'Помилка');
       }
     }
-
+    $this->view->title = 'Всі статті';
     return $this->render('test', compact('model'));
   }
 
@@ -75,7 +82,7 @@ class PostController extends AppController
     //$cats = Category::find()->with('products')->where('id=694')->all();
     //$cats = Category::find()->all(); //відкладена загрузка
     $cats = Category::find()->with('products')->all(); // "жадібна" загрузка
-    
+
     return $this->render('show', compact('cats'));
   }
 }

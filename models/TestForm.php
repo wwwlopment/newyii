@@ -3,14 +3,18 @@
 
 namespace app\models;
 
-use yii\base\Model;
+//use yii\base\Model;
+use yii\db\ActiveRecord;
 
-class TestForm extends Model
-{
+class TestForm extends ActiveRecord {
 
-  public $name;
-  public $email;
-  public $text;
+//  public $name;
+//  public $email;
+//  public $text;
+
+public static function tableName() {
+  return 'posts' ;
+}
 
   public function attributeLabels()
   {
@@ -22,7 +26,7 @@ class TestForm extends Model
   }
 
   public function rules()   {
-    return [
+/*    return [
      // [['name', 'email'], 'required', 'message' => 'Обов"язкове поле'],
       [['name', 'email'], 'required'],
       ['email', 'email'],
@@ -33,7 +37,15 @@ class TestForm extends Model
       ['name', 'myRule'],
      // ['text', 'trim'],
       ['text', 'safe'],
-    ];
+    ];*/
+
+     return [
+       [['name', 'text'], 'required'],
+     //  ['email', 'email'],
+       ['email', 'trim'],
+       ];
+
+
   }
 
   public function myRule($attr) {
