@@ -27,8 +27,8 @@ AppAsset::register($this);
     <div class="container">
         <ul class="nav nav-pills">
             <li role="presentation" class="active"><?= Html::a('Головна', '/web/') ?></li>
-            <li role="presentation"><?= Html::a('Статті', '/post/index') ?></li>
-            <li role="presentation"><?= Html::a('Стаття', '/post/show') ?></li>
+            <li role="presentation"><?= Html::a('Статті', ['post/index']) ?></li>
+            <li role="presentation"><?= Html::a('Стаття', ['post/show']) ?></li>
         </ul>
 
         <?php if (isset($this->blocks['block1'])):?>

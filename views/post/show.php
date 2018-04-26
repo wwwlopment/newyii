@@ -8,6 +8,24 @@
 
 <h1>Show action</h1>
 
+<?php
+/*debug($cats[0]);
+echo count($cats[0]->products);
+debug($cats[0]);*/
+foreach ($cats as $cat) {
+    echo '<ul>';
+        echo '<li>' . $cat->title . '</li>';
+        $products = $cat->products;
+        foreach ($products as $product){
+              echo '<ul>';
+        echo '<li>' . $product->title . '</li>';
+         echo '</ul>';
+        }
+    echo '</ul>';
+  //  echo $cat->title . '<br>';
+}
+
+?>
 <button class="btn btn-success" id='btn' >Click me...</button>
 
 <?php //$this->registerJsFile('@web/js/scripts.js', ['depends' => 'yii\web\YiiAsset']) ?>

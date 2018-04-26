@@ -8,6 +8,7 @@
 
 namespace app\controllers;
 
+use app\models\Category;
 use Yii;
 use app\models\TestForm;
 
@@ -52,6 +53,29 @@ class PostController extends AppController
     $this->view->title = 'Одна стаття';
     $this->view->registerMetaTag(['name' => 'keywords', 'content' => 'ключовики...']);
     $this->view->registerMetaTag(['name' => 'description', 'content' => 'опис сторінки...']);
-    return $this->render('show');
+
+    //$cats = Category::find()->all();
+    //$cats = Category::find()->orderBy(['id' => SORT_DESC])->all();
+    //$cats = Category::find()->asArray()->all();
+    //$cats = Category::find()->where('parent=691')->all();
+    //$cats = Category::find()->where(['parent' => '691'])->all();
+    //$cats = Category::find()->where(['like', 'title', 'pp'])->all();
+    //$cats = Category::find()->where(['<=', 'id', '695'])->all();
+    //$cats = Category::find()->where(['parent' => '691'])->limit(1)->all();
+    //$cats = Category::find()->where(['parent' => '691'])->count();
+    //$cats = Category::find()->count();
+    //$cats = Category::findOne(['parent' => 691]);
+    //$cats = Category::findAll(['parent' => 691]);
+    //$query = "SELECT * FROM categories WHERE title LIKE '%pp%'";
+    //$cats = Category::findBySql($query)->all();
+    //$query = "SELECT * FROM categories WHERE title LIKE :search";
+    //$cats = Category::findBySql($query, [':search' => '%pp%'])->all();
+
+    //$cats = Category::findOne(694);
+    //$cats = Category::find()->with('products')->where('id=694')->all();
+    //$cats = Category::find()->all(); //відкладена загрузка
+    $cats = Category::find()->with('products')->all(); // "жадібна" загрузка
+    
+    return $this->render('show', compact('cats'));
   }
 }
